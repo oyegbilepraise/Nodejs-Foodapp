@@ -1,6 +1,5 @@
 @import './variables';
 
-
 body{
     font-family: 'Lato', san-setif;
     -webkit-font-smoothing: antialiased;
@@ -38,5 +37,19 @@ section.hero{
         background: $primary;
         border-color: $pure;
         color: $pure;
+    }
+}
+.btn-primary{
+    background: $primary;
+    transform: $smooth;
+    &:hover{
+        background: $primary-hover;;
+    }
+}
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
     }
 }
